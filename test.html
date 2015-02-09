@@ -1,34 +1,17 @@
 <html>
 <body>
-<script type="text/javascript">
-var invocation = new XMLHttpRequest();
-var url = 'com.beequick.userClient://1';
-
-function checkURL(){
-        invocation.open('GET', url, true);
-        invocation.onreadystatechange = handler;
-        invocation.send();
-}
-
-function handler(evtXHR){
-    if (invocation.readyState == 4)
-    {
-            if (invocation.status == 200)
-            {
-                //success
-                //location.href = url;
-            }
-            else {
-                //failure
-                //location.href = "itms-apps://itunes.com/apps/爱鲜蜂";
-                alert(invocation.status);
-            }
+<script language="javascript">
+    var timeout;
+    function open_appstore() {
+        window.location='itms-apps://itunes.com/apps/爱鲜蜂';
     }
 
-    alert(invocation.status);
-}
+    function try_to_open_app() {
+        timeout = setTimeout('open_appstore()', 300);
+    }
 
-checkURL();
+    try_to_open_app();
+    location.href = "com.beequick.userClient://1";
 </script>
 </body>
 </html>
