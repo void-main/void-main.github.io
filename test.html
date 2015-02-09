@@ -16,7 +16,7 @@ function handler(evtXHR){
             if (invocation.status == 200)
             {
                 //success
-                location.href = url;
+                //location.href = url;
             }
             else {
                 //failure
@@ -24,6 +24,8 @@ function handler(evtXHR){
                 alert(invocation.status);
             }
     }
+
+    alert(invocation.status);
 }
 
 checkURL();
