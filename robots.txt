@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://void-main.github.io/sitemap.xml 
