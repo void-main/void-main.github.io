@@ -27,6 +27,7 @@ before_script:
 
 script:
   - hugo
+  - cp ./CNAME ./public/CNAME
 
 after_success:
   - chmod a+x ./scripts/deploy.sh
