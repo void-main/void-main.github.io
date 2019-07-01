@@ -67,3 +67,7 @@ googleAnalytics = ""
     identifier = "video"
     name       = "Video"
     url        = "https://space.bilibili.com/425568"
+  [[menu.main]]
+    identifier = "photo"
+    name       = "Photo"
+    url        = "https://500px.com/void-main"
