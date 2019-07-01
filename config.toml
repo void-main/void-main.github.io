@@ -62,4 +62,8 @@ googleAnalytics = ""
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
-    url        = "http://blog.voidmain.guru/"
+    url        = "https://blog.voidmain.guru/"
+  [[menu.main]]
+    identifier = "video"
+    name       = "Video"
+    url        = "https://space.bilibili.com/425568"
